@@ -8,7 +8,7 @@ with st.form(key='nlpForm'):
 			Requirements = st.text_area("Enter Requirement")
 			submit_button = st.form_submit_button(label='Detect defects')
 
-df = pd.read_excel(r"C:\Users\ASUS\Downloads\Book2.xlsx")
+df = pd.read_excel('Book2.xlsx')
 
 
 Unbounded_Lists = df['Unbounded Lists'].values.tolist()
